@@ -1,0 +1,1 @@
+Simulation options of rti_sim_engine.c: SMODE = "RTSIM"; SSTATE = "RUN"; 

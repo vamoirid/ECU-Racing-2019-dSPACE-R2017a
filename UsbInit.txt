@@ -1,0 +1,24 @@
+static void UsbFlightRecorder_SetRecordingSize(UInt32 FileSizeMB) {
+    vcm_module_descriptor_type      *pVcmEntry;
+    DsFlrecUsbAdmin_t               *pVcmInfo;
+
+    pVcmEntry = vcm_module_find( VCM_MID_FLREC_USB_1401, NULL );
+    if( pVcmEntry == NULL )
+    {
+        msg_warning_printf( 0, 0, "Error: Flight Recorder was not initialized (failed to locate VCM entry)");
+        return;
+    }
+    pVcmInfo = (DsFlrecUsbAdmin_t*)vcm_memory_ptr_get(pVcmEntry);
+    if( pVcmInfo == NULL )
+    {
+        msg_warning_printf( 0, 0, "Error: Flight Recorder was not initialized (failed to locate VCM data)");
+        return;
+    }
+    pVcmInfo->maxRecordingSizeMB = FileSizeMB;
+    msg_info_printf( 0, 0, "USB Flight Recorder: Successfully set recording size to %d MB", FileSizeMB ); }
+
+// the following function should exist in the file, but probably is empty
+static void usr_initialize(void)
+{
+    UsbFlightRecorder_SetRecordingSize(256);
+}

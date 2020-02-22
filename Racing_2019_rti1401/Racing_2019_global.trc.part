@@ -1,0 +1,447 @@
+-- ******** Tunable Parameters ************************************************
+
+group "Tunable Parameters"
+
+	p_1_Racing_2019_real_T_0[0]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "APPS_Bypass"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[1]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "APPS_Value"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[2]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "AUX_Error_Time"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[3]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Accu_Fans_Enable"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[4]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Accu_Fans_ON"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[5]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "BMS_Error_Time"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[6]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "BMS_Reset"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[7]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "BMS_Reset_Enable"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[8]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "BMS_Status_Bypass"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[9]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "BSPD_State_Bypass"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[10]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Brake_Plausibility_Threshold"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[11]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Brakelight_Test"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[12]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Buzzer"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[13]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Buzzer_Silent"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[14]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "CAN_Rx_FMEA_Enable"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[15]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "CAN_Status_FMEA_Enable"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[16]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "CAN_Tx_FMEA_Enable"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[17]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Calibrate"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[18]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Car_Reset"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[19]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Car_Reset_Enable"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[20]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "DRS_Enable"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[21]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "DRS_PWM_OFF"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[22]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "DRS_PWM_ON"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[23]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Eject_USB"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[24]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Enable_Kill"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[25]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Fans_Left_Enable"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[26]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Fans_Left_ON"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[27]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Fans_Right_Enable"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[28]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Fans_Right_ON"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[29]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "IGBT_Temp_High_Threshold"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[30]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "IGBT_Temp_Low_Threshold"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[31]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "I_MAX"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[32]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Inverter_CAN_Tx_Enable"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[33]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Inverter_Frequency"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[34]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "KW_Max_Regen_Reset"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[35]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "KW_Max_Reset"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[36]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Plausibility_Bypass"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[37]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Power_Limiter_Killswitch"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[38]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Power_Target_kW"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[39]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Pump_Left_Enable"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[40]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Pump_Left_ON"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[41]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Pump_Right_Enable"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[42]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Pump_Right_ON"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[43]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "RPM_MAX"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[44]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Regen_Enable"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[45]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "SC_Enable"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[46]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Safe_State_Bypass"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[47]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Sensor_Error_Bypass"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[48]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Set_ID"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[49]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Set_Inverter_Settings"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[50]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Start_Up_Hack"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real_T_0[51]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Torque_Gain"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real32_T_1[0]
+	{
+	 type:    flt(32,IEEE)*
+	 alias:   "Batt_Temp_High_Threshold"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real32_T_1[1]
+	{
+	 type:    flt(32,IEEE)*
+	 alias:   "Batt_Temp_Low_Threshold"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real32_T_1[2]
+	{
+	 type:    flt(32,IEEE)*
+	 alias:   "Pump_Signal_Left"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_real32_T_1[3]
+	{
+	 type:    flt(32,IEEE)*
+	 alias:   "Pump_Signal_Right"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_uint8_T_2[0]
+	{
+	 type:    uint(8)*
+	 alias:   "Accu_Fans_PWM"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_uint8_T_2[1]
+	{
+	 type:    uint(8)*
+	 alias:   "Braking_Torque"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_uint8_T_2[2]
+	{
+	 type:    uint(8)*
+	 alias:   "Buzzer_Test"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_uint8_T_2[3]
+	{
+	 type:    uint(8)*
+	 alias:   "Dash_Fan_PWM"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_uint8_T_2[4]
+	{
+	 type:    uint(8)*
+	 alias:   "ED_Enable"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_uint8_T_2[5]
+	{
+	 type:    uint(8)*
+	 alias:   "ED_On"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_uint8_T_2[6]
+	{
+	 type:    uint(8)*
+	 alias:   "Enable_LED_Test"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_uint8_T_2[7]
+	{
+	 type:    uint(8)*
+	 alias:   "Fans_Left_PWM"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_uint8_T_2[8]
+	{
+	 type:    uint(8)*
+	 alias:   "Fans_Right_PWM"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_uint8_T_2[9]
+	{
+	 type:    uint(8)*
+	 alias:   "LV_DCDC_Temp_High_Threshold"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_uint8_T_2[10]
+	{
+	 type:    uint(8)*
+	 alias:   "LV_DCDC_Temp_Low_Threshold"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_uint8_T_2[11]
+	{
+	 type:    uint(8)*
+	 alias:   "Safe_State_LED_Test"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_uint8_T_2[12]
+	{
+	 type:    uint(8)*
+	 alias:   "Sensor_Error_LED_Test"
+	 flags:   PARAM
+	}
+	p_1_Racing_2019_boolean_T_3[0]
+	{
+	 type:    uint(8)*
+	 alias:   "Regen_IDC_Reset"
+	 bitmask: 0x01
+	 range:   < 0 ; 1 >
+	 flags:   PARAM
+	}
+
+endgroup
+
+-- ******** State Machine Data ************************************************
+
+group "State Machine Data"
+
+
+endgroup
+
+
+-- ******** Labels ************************************************************
+
+-- Generation of labels turned off with TRCGenerateLabels option.
+
+-- ******** RTT Dynamic Variables *********************************************
+
+group "RTT Dynamic Variables"
+
+endgroup
+

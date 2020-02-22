@@ -1,0 +1,38 @@
+
+
+-- Type definitions for structures
+
+struct Racing_2019_struct_isB4Cw3Ovpp8VfzP6RUqbD
+{
+  array-incr: -1
+}
+    OutputPortsWidth 
+    {
+      type:    int(32)
+      offs:    -1
+    }
+endstruct
+
+
+-- Type definitions for arrays
+typedef Racing_2019_ArrayDT0_2 flt(64,IEEE)[2]
+typedef Racing_2019_ArrayDT8_2 uint(8)[2]
+typedef Racing_2019_ArrayDT0_30 flt(64,IEEE)[30]
+typedef Racing_2019_ArrayDT1_30 flt(32,IEEE)[30]
+typedef Racing_2019_ArrayDT8_8_2_Col col uint(8)[8][2]
+typedef Racing_2019_ArrayDT0_50 flt(64,IEEE)[50]
+typedef Racing_2019_ArrayDT0_1000 flt(64,IEEE)[1000]
+typedef Racing_2019_ArrayDT0_10000 flt(64,IEEE)[10000]
+typedef Racing_2019_ArrayDT0_2000 flt(64,IEEE)[2000]
+typedef Racing_2019_ArrayDT0_10 flt(64,IEEE)[10]
+typedef Racing_2019_ArrayDT0_20 flt(64,IEEE)[20]
+typedef Racing_2019_ArrayDT0_150 flt(64,IEEE)[150]
+typedef Racing_2019_ArrayDT10_2 int(32)[2]
+typedef Racing_2019_ArrayDT8_5 uint(8)[5]
+typedef Racing_2019_ArrayDT8_50 uint(8)[50]
+typedef Racing_2019_ArrayDT8_350 uint(8)[350]
+typedef Racing_2019_ArrayDT8_150 uint(8)[150]
+typedef Racing_2019_ArrayDT8_4 uint(8)[4]
+typedef Racing_2019_ArrayDT8_500 uint(8)[500]
+
+
