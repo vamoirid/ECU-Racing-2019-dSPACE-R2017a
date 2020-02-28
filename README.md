@@ -4,7 +4,7 @@ This repository contains the code running on the main ECU of a Formula Student E
 
 ## System Overview
 
-The vehicle uses the **dSPACE MicroAutoBox II** as the **Main ECU** which controls the overall behavior of the vehicle. There are several other **general purpose ECUs** inside the vehicle such as in the Dashboard, Battery Management System Master, Motor Controllers & Auxiliary ones. All of them communicate directly with the **Main ECU** via CAN protocol and they **never** communicate between one another.
+The vehicle uses the **dSPACE MicroAutoBox II** as the **Main ECU** which controls its overall behavior. There are several other **general purpose ECUs** inside the vehicle such as in the Dashboard, Battery Management System Master, Motor Controllers & Auxiliary ones. All of them communicate directly with the **Main ECU** via CAN protocol and they **never** communicate between one another.
 
 <img src="https://github.com/vamoirid/Battery-Management-System-LTC6811-STM32/blob/master/images/thetis.JPG">
 
@@ -189,7 +189,7 @@ There are some General Outputs from the **Main ECU** that were directly controll
 
 The second most important block in the **Main ECU Code** is this block because is the last block before sending the CAN messages to the Motor Controllers/Inverters. The way of sending messages is complicated due to the fact that Simulink code is neither written nor executed serially thus it makes it difficult to make Initializations. Moreover the Motor Controller accepts messages in a very specific way that is explained in the [datasheet](https://www.unitek-industrie-elektronik.de/manual-can-en) which requires different modes and Less Significant Byte format. This piece of code requires extensive safety features because a wrong Torque Reference value can lead to unwanted results.
 
-<img src="https://github.com/vamoirid/ECU_Racing_2019_dSPACE_R2017a/blob/master/dSPACE code photos/Inverters_CAN_Tx.png">
+<img src="https://github.com/vamoirid/ECU_Racing_2019_dSPACE_R2017a/blob/master/dSPACE code photos/Inverter_CAN_Tx.png">
 
 ---
 
